@@ -1,5 +1,10 @@
 #!/usr/bin/python3
-""" Markdown to Html"""
+"""
+    Markdown to Html
+    a script markdown2html.py that takes an argument 2 strings:
+    First argument is the name of the Markdown file
+    Second argument is the output file name
+"""
 import sys
 import os
 """ sys for args and os to check file"""
