@@ -11,7 +11,12 @@ import os
 
 
 if len(sys.argv) < 3:
-    """ confirm the args coming in"""
+    """
+        Markdown to Html
+        a script markdown2html.py that takes an argument 2 strings:
+        First argument is the name of the Markdown file
+        Second argument is the output file name
+    """
     sys.stderr.write('Usage: ./markdown2html.py README.md README.html\n')
     sys.exit(1)
 
