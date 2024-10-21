@@ -26,7 +26,7 @@ htmlFile = sys.argv[2]
 
 if not os.path.isfile(markdownFile):
     """check markdown if it is a markdownfile"""
-    sys.stderr.write(f'Missing {mardownFile}\n')
+    sys.stderr.write(f'Missing {markdownFile}\n')
     sys.exit(1)
 
 sys.exit(0)
