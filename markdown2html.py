@@ -10,7 +10,7 @@ import os
 """ sys for args and os to check file"""
 
 
-if len(sys.argv) < 3:
+if len(sys.argv) != 3:
     """ check the arg len """
     sys.stderr.write('Usage: ./markdown2html.py README.md README.html\n')
     sys.exit(1)
